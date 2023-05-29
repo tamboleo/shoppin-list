@@ -123,7 +123,11 @@ header h1 {
   font-weight: 700;
   cursor: pointer;
 }
-
+img#mainimage{
+width: 100px;
+height: auto;
+border-radius: 10px;
+}
 @media (max-width: 500px) {
   .items li {
     width: 100%;
