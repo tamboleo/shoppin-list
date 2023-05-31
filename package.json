@@ -1,0 +1,28 @@
+{
+  "name": "shoppinglist",
+  "version": "1.0.0",
+  "description": "Shopping List Project",
+  "main": "script.js",
+  "scripts": {
+    "dev": "dev",
+    "start": "node script.js",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tamboleo/shoppin-list.git"
+  },
+  "author": "Alejandro Tamboleo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tamboleo/shoppin-list/issues"
+  },
+  "homepage": "https://github.com/tamboleo/shoppin-list#readme",
+  "devDependencies": {
+    "css-loader": "^6.8.1",
+    "file-loader": "^6.2.0",
+    "style-loader": "^3.3.3",
+    "webpack": "^5.84.1",
+    "webpack-cli": "^5.1.1"
+  }
+}

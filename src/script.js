@@ -4,6 +4,9 @@ const itemList = document.getElementById('item-list');
 const clearBtn = document.getElementById('clear');
 const itemFilter = document.getElementById('filter');
 let formBtn = itemForm.querySelector('button');
+import './css/style.css';
+import './images/note.jpg';
+import './images/note.ico';
 let isEditMode = false;
 function displayItems() {
     const itemsFromStorage = getItemfromStorage();
