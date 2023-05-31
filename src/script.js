@@ -18,6 +18,7 @@ function displayItems() {
 
 function onaddItemSubmit(e){
     e.preventDefault();
+    e.stopPropagation();
     const newitem = itemInput.value;
     if (isEditMode) {
         const itemtoEdit = itemList.querySelector('.edit-mode');
